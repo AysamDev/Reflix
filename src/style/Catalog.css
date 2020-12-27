@@ -1,0 +1,39 @@
+input
+{
+    display: grid;
+    justify-content: start;
+    margin-left: 1vmax;
+    justify-self: flex-start;
+    
+}
+.header
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#budget
+{
+    display: grid;
+    color: dimgray;
+    justify-content: end;
+    margin-right: 1vmax;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+.nonRented , .rented
+{
+    margin-top: 2vmax;
+    margin-bottom: 1vmax;
+}
+#rentedMovies , #nonRentedMovies
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1vmax;
+    margin-left: 1vmax;
+    
+}
+
+.categories{
+    color: wheat;
+    margin-left: 2vmax;
+}

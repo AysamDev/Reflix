@@ -1,0 +1,35 @@
+
+.Users
+{
+display: grid;
+grid-auto-flow: column;
+justify-content: center;
+align-content: center;
+justify-items: center;
+align-items: center;
+margin-top: 5vmax;
+gap: 2vmax;
+}
+.user
+{
+    display: grid;
+    box-shadow: lightsalmon 1vmax 1vmax 1vmax;
+    align-self: start;
+    padding: 5vmax;
+    opacity: 0.7;
+    border-radius: 3vmax;
+}
+
+span{
+    font-size: x-large;
+    color: black
+}
+.title
+{
+    display: grid;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 5vmax;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
