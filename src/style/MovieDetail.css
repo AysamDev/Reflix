@@ -1,0 +1,13 @@
+.movieDetails
+{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+p{
+    font-size: x-large;
+    margin: 4vmax;
+    flex-wrap: wrap;
+}

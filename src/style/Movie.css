@@ -1,0 +1,33 @@
+.movie{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+img{
+    display: grid;
+    height: 25vmax;
+    width: 25vmax;
+    margin-top: 2vmax;
+}
+.card
+{
+    display: grid;
+    border-radius: 2vmax;
+    padding: 1vmax;
+    background-color: black;
+}
+.movieTitle 
+{
+    display: grid;
+    margin-top: 1vmax;
+    color: wheat;
+    justify-self: center;
+    align-content: center;
+}
+ .addDelMovie
+ {
+    color: gold;
+   
+    font-size: xx-large;
+    cursor: pointer;
+ }
